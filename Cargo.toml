@@ -1,0 +1,16 @@
+[package]
+name = "stochastic-abm"
+version = "0.1.0"
+authors = ["Your Name <your_email@example.com>"]
+edition = "2021"
+license = "MIT"
+description = "A Rust library for simulating various stochastic processes, including Arithmetic Brownian Motion and more." # A brief description of the crate
+readme = "README.md"
+repository = "https://github.com/nzengi/stochastic-abm"
+homepage = "https://github.com/nzengi/stochastic-abm"
+documentation = "https://docs.rs/stochastic-abm"
+keywords = ["stochastic", "finance", "simulation", "mathematics", "brownian motion"]
+categories = ["science", "simulation", "mathematics", "finance"]
+
+[dependencies]
+rand = "0.8"
